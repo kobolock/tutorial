@@ -33,4 +33,4 @@ Please, install Git before commit
 
 Supplemental infos
 ------------------
-source : [How to connect Github with Atom - Easiest Way!] (https://youtu.be/6HsZMl-qV5k)
+[How to connect Github with Atom] (https://youtu.be/6HsZMl-qV5k)
