@@ -16,20 +16,20 @@ Create a repo on Github and find it on Atom
 
 Authorize for Atom
 ------------------
-  * Go to github.atom.io\login to generate an authentication token
+  * Go to `github.atom.io\login` to generate an authentication token
   * Copy the token Github
   * From Atom, in Github window, paste the token to login
 
 How push a new file or modified file
 ------------------------------------
   * From the README.md file, add new comments
-  * Save file wtih CTRL+S
-  * File appears in the Git window, in the Unstaged Changes
+  * Save file with CTRL+S
+  * File appears in the Git window, in the "Unstaged Changes"
   * Add info commit. For example, "Add new comments in README.md"
   * Click on "Commit to master"
 
 Note : If Git is not already installed on your machine, a error message appears.
-Please, install Git before commit
+Please, install Git before commit and, open terminal to enter `git config --global user.email "user.email"` and `git config --global user.name "user.name"`
 
 Supplemental infos
 ------------------
