@@ -41,32 +41,25 @@ Adding an existing project to GitHub
 
   * Create a new repo from Github
   * Open Github
-  * Change directory
-`squentin@DESKTOP-4MEJO4J MINGW64 ~
-$ cd /F/workspace/git_repo/test_repo/`
-  * Initialize the local directory
-`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo
-$ git init
+  * Change directory \n
+`$ cd /F/workspace/git_repo/test_repo/`
+  * Initialize the local directory \n
+`$ git init
 Initialized empty Git repository in F:/workspace/git_repo/test_repo/.git/`
-  * Add files in the new local directory
-`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
-$ git add .`
-  * Commit the files
-`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
-$ git commit -m "initial commit"
+  * Add files in the new local directory \n
+`$ git add .`
+  * Commit the files \n
+`$ git commit -m "initial commit"
 [master (root-commit) a0cceb9] initial commit
  1 file changed, 1 insertion(+)
  create mode 100644 test.txt`
-  * Copy the remote repository URL,  add the URL for the remote repository where your local repository will be pushed.
-`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
-$ git remote add origin https://github.com/kobolock/testrepo.git`
-  * Initialize the local directory
-`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
-$ git remote -v
+  * Copy the remote repository URL,  add the URL for the remote repository where your local repository will be pushed.\n
+`$ git remote add origin https://github.com/kobolock/testrepo.git`
+  * Initialize the local directory \n
+`$ git remote -v
 origin  https://github.com/kobolock/testrepo.git (fetch)
-origin  https://github.com/kobolock/testrepo.git (push)
-squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)`
-* Push the changes in your local repository to GitHub.
+origin  https://github.com/kobolock/testrepo.git (push)`
+* Push the changes in your local repository to GitHub.\n
 `$ git push origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
