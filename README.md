@@ -1,4 +1,4 @@
-# tutorial
+# Tutorial
 
 
 First steps with Atom editor
@@ -34,3 +34,43 @@ Please, install Git before commit and, open terminal to enter `git config --glob
 Supplemental infos
 ------------------
 [How to connect Github with Atom] (https://youtu.be/6HsZMl-qV5k)
+
+
+Adding an existing project to GitHub
+====================================
+
+  * Create a new repo from Github
+  * Open Github
+  * Change directory
+`squentin@DESKTOP-4MEJO4J MINGW64 ~
+$ cd /F/workspace/git_repo/test_repo/`
+  * Initialize the local directory
+`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo
+$ git init
+Initialized empty Git repository in F:/workspace/git_repo/test_repo/.git/`
+  * Add files in the new local directory
+`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
+$ git add .`
+  * Commit the files
+`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
+$ git commit -m "initial commit"
+[master (root-commit) a0cceb9] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt`
+  * Copy the remote repository URL,  add the URL for the remote repository where your local repository will be pushed.
+`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
+$ git remote add origin https://github.com/kobolock/testrepo.git`
+  * Initialize the local directory
+`squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)
+$ git remote -v
+origin  https://github.com/kobolock/testrepo.git (fetch)
+origin  https://github.com/kobolock/testrepo.git (push)
+squentin@DESKTOP-4MEJO4J MINGW64 /F/workspace/git_repo/test_repo (master)`
+* Push the changes in your local repository to GitHub.
+`$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 217 bytes | 217.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kobolock/testrepo.git
+ * [new branch]      master -> master`
