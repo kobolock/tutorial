@@ -1,0 +1,23 @@
+Miniconda
+=========
+
+Installing Miniconda
+--------------------
+
+  * Go to miniconda installers (https://docs.conda.io/en/latest/miniconda.html)
+  * Copy link address corresponding to your OS
+  * On Linux, upload file with
+  `wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh`
+  * Execute the installer
+  `bash Miniconda3-latest-Linux-x86_64.sh`
+  * When you are asked the question below, answer with yes.
+  `Do you wish the installer to prepend the Miniconda3 install location to PATH
+  ...? [yes|no]`
+
+Preparing a working directory
+-----------------------------
+
+  * First, create a new directory snakemake-tutorial at a reasonable place
+  and change into that directory in your terminal:
+  `$ mkdir snakemake-tutorial  
+  $ cd snakemake-tutorial`
