@@ -17,7 +17,32 @@ Installing Miniconda
 Preparing a working directory
 -----------------------------
 
-  * First, create a new directory snakemake-tutorial at a reasonable place
+  First, create a new directory snakemake-tutorial at a reasonable place
   and change into that directory in your terminal:
-  `$ mkdir snakemake-tutorial  
+  `$ mkdir snakemake-tutorial
   $ cd snakemake-tutorial`
+
+Creating an environment with the required software
+--------------------------------------------------
+
+  To activate the snakemake-tutorial environment, execute
+  $ conda env create --name snakemake-tutorial --file environment.yaml
+
+Activating the environment
+--------------------------
+  To activate the snakemake-tutorial environment, execute
+  $ conda activate snakemake-tutorial
+
+  Now you can use the installed tools. Execute
+  $ snakemake --help
+
+  to test this and get information about the command-line interface of Snakemake.
+  To exit the environment, you can execute
+  $ conda deactivate
+
+
+
+  QUESTIONS :
+
+  Ou sont installés les packages bioconda ?
+  $ conda install -c bioconda samtools
